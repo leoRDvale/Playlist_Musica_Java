@@ -39,7 +39,6 @@ public class Main {
                 case 5:
                     int confirm = JOptionPane.showConfirmDialog(null, "Deseja encerrar o programa?");
                     if (confirm == JOptionPane.YES_OPTION){
-                        JOptionPane.showMessageDialog(null, "Encerrando...");
                         return;
                     }
                     break;
